@@ -1,0 +1,59 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+	background-color:white;
+}
+
+#navigation-left{
+	color:blue;
+	background-color:gray;
+}
+
+#center{
+	color:blue;
+}
+
+#navigation-right{
+	color:blue;	
+}
+
+.section2{
+
+}
+
+.section3{
+
+}
+
+.section1{
+
+}
+
+.header{
+	background-color:gray;
+}
+
+.words{
+	
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px white;
+}
+
+th, td{
+	border-bottom: 1px solid #ddd;
+}
+
+.minibox{
+	font-size: 60%;
+	background-color:white;
+	text-align:center;
+	padding: 2px;
+	margin:5px;
+}

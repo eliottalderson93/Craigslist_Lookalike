@@ -3,22 +3,34 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+	color:blue;
+}
 
+h3{
+	color:black;
+}
 #wrapper{
 	background-color:white;
 }
 
 #navigation-left{
 	color:blue;
-	background-color:gray;
+	background-color:gainsboro;
+	display: inline-block;
+	text-align:left;
 }
 
 #center{
 	color:blue;
+	background-color:gray;
 }
 
 #navigation-right{
-	color:blue;	
+	color:blue;
+	background-color:gainsboro;
+	display:inline-block;
+	text-align:left;	
 }
 
 .section2{
@@ -34,11 +46,13 @@
 }
 
 .header{
-	background-color:gray;
+	background-color:gainsboro;
+	display: inline-grid;
+	color:blue;
 }
 
 .words{
-	
+	color:blue;
 }
 
 table{
@@ -48,6 +62,8 @@ table{
 
 th, td{
 	border-bottom: 1px solid #ddd;
+	margin:3px;
+	width: 20px;
 }
 
 .minibox{
@@ -56,4 +72,5 @@ th, td{
 	text-align:center;
 	padding: 2px;
 	margin:5px;
+	display: inline-block;
 }
